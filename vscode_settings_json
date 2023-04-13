@@ -1,0 +1,25 @@
+// vscode settings.json
+// path : home/$USER/.config/Code/User/
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "git.autofetch": true,
+    "settingsSync.ignoredSettings": [],
+    "cmake.configureOnOpen": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": true,
+    "editor.rulers": [100],
+    "files.associations": {
+        "*.repos": "yaml",
+        "*.world": "xml",
+        "*.xacro": "xml"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.scrollback": 1000000,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "ros.distro": "foxy",
+    "colcon.provideTasks": true
+}
