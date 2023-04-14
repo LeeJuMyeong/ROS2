@@ -1,0 +1,30 @@
+QtCreator 설치 방법 및 추가 사항
+
+[QtCreator]
+
+설치
+	$sudo apt install atcrator
+	
+실행
+	$qtcrator
+	
+[QtCreator  Plug-in for ROS]
+
+설치
+	1. site : https://ros-qtc-plugin.readthedocs.io/en/latest/index.html
+	2. Installation Instructions (Users) 
+	3. 최신 버전 다운(2023-04-13 현재 최신버전 :Installation Procedure for Ubuntu 18.04)
+	(Bionic Offline Installer 다운)
+	
+	(**중요**)4. 해당 파일에 권한 부여해야함
+		$chmod a+x [file name]
+		
+		>>[권한 없을 경우, 실행이 되지 않음]
+	
+	5. 더블클릭 or
+		$./[file name]
+		
+	(**중요**)6. qtcrator-ros 실행 -> Projects -> other Project -> ROS Workspace 선택
+	
+		>>[qtcrator로 실행시 ROS worksapce가 보이지 않음]
+
