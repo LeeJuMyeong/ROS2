@@ -1,1 +1,3 @@
 log/
+.vscode/colcon.env
+.vscode/settings.json
